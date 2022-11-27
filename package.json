@@ -2,7 +2,7 @@
   "name": "register",
   "version": "1.0.0",
   "description": "node with typescript",
-  "main": "./src/app.ts",
+  "main": "./src/server.ts",
   "engines": {
     "node": "14.x"
   },
