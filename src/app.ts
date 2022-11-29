@@ -15,6 +15,13 @@ app.get('/', (req, res) => {
   })
 });
 
+app.get('/api/v1/user', (req, res) => {
+  res.status(200).json({
+    message: 'You are conencted',
+    success: true
+  })
+});
+
 app.all('*', (req: Request, res: Response, next: NextFunction) => {
   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404))
 });
