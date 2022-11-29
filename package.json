@@ -2,12 +2,12 @@
   "name": "register",
   "version": "1.0.0",
   "description": "node with typescript",
-  "main": "./src/server.ts",
+  "main": "./src/index.ts",
   "engines": {
     "node": "14.x"
   },
   "scripts": {
-    "start": "node ./src/server.ts",
+    "start": "ts-node ./src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
